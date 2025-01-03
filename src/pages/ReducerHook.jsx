@@ -21,6 +21,7 @@ const ReducerHook = () => {
 
   return (
     <div>
+      
       <div className="flex justify-center items-center flex-col">
         <h1 className="text-5xl font-bold mb-5">Use Reducer</h1>
 

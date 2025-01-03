@@ -14,7 +14,9 @@ const Parent = () => {
       <Child ref={ref} />
       <button
         className="bg-orange-700 text-white p-2 my-5 rounded-md"
-        onClick={() => [ref.current.SayHi(), temp()]}
+        onClick={() => {
+          ref.current.SayHi();
+        }}
       >
         Click From Parent Component
       </button>
